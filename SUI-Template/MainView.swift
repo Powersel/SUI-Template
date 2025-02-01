@@ -16,6 +16,9 @@ struct MainView<ViewModel: BaseViewModelProtocol>: View {
                 .foregroundStyle(.tint)
             Text("Hello, world!")
         }
+        .task {
+          await viewModel.loadData()
+        }
         .padding()
     }
 }
