@@ -7,7 +7,7 @@ struct SUI_TemplateApp: App {
   
     var body: some Scene {
         WindowGroup {
-          MainView(viewModel: vm)
+          BaseView(viewModel: vm)
         }
     }
 }

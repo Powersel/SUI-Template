@@ -19,7 +19,6 @@ final class DTOParsingService {
   
   init() {
     let decoder = JSONDecoder()
-    decoder.keyDecodingStrategy = .convertFromSnakeCase
     self.decoder = decoder
   }
 }

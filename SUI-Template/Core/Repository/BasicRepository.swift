@@ -14,8 +14,8 @@ final class BasicRepository: BasicRepositoryProtocol {
   }
   
   func fetchBasicModel() async throws -> BaseDTOModel {
-   let urlStr = "https://rickandmortyapi.com/api"
     do {
+      let urlStr = APIEndpoint.base.path
       let data = try await networkService.fetchData(urlStr)
       let model = try dtoParsingService.parseData(data, BaseDTOModel.self)
       return model
