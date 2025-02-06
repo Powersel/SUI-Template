@@ -74,6 +74,8 @@ extension NetworkService: NetworkServiceProtocol {
       urlRequest.httpMethod = "GET"
       let data = try await processRequest(urlRequest)
       
+//      print(String(data: data, encoding: .utf8)!)
+      
       return data
     } catch let err {
       throw NetworkError.invalidStatusCode(400)
@@ -86,6 +88,8 @@ extension NetworkService: NetworkServiceProtocol {
       var urlRequest = URLRequest(url: url)
       urlRequest.httpMethod = "POST"
       let data = try await processRequest(urlRequest)
+      
+//      print(String(data: data, encoding: .utf8)!)
       
       return data
     } catch let err {
@@ -102,6 +106,8 @@ extension NetworkService: NetworkServiceProtocol {
           httpResponce.statusCode == 200 else {
       throw NetworkError.invalidStatusCode(400)
     }
+    
+//    print(String(data: data, encoding: .utf8)!)
     
     return data
   }
