@@ -1,19 +1,29 @@
-import UIKit
+import SwiftUI
 
-protocol AppCoordinator {
-  func start()
+enum AppPages {
+  case details
+}
+
+protocol AppCoordinator: ObservableObject {
+  var path: NavigationPath { get set }
+  
+  func push(page: AppPages)
+  func pop()
+  func popToRoot()
 }
 
 final class MainCoordinator: AppCoordinator {
-  private let window: UIWindow
-  private let navigationController: UINavigationController
+  @Published var path: NavigationPath = NavigationPath()
   
-  init(window: UIWindow) {
-    self.window = window
-    self.navigationController = UINavigationController()
+  func push(page: AppPages) {
+    path.append(page)
   }
   
-  func start() {
-    
+  func pop() {
+    path.removeLast()
+  }
+  
+  func popToRoot() {
+    path.removeLast(path.count)
   }
 }
