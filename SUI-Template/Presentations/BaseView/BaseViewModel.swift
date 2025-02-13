@@ -11,7 +11,7 @@ protocol BaseViewModelProtocol: ObservableObject, NetworkViewModelProtocol {
 
 final class BaseViewModel: BaseViewModelProtocol {
   
-  private let repository: BasicRepositoryProtocol
+  private let repository: BaseRepositoryProtocol
   
   @Published
   private(set) var state: ListViewState = .idle
@@ -19,7 +19,7 @@ final class BaseViewModel: BaseViewModelProtocol {
   @Published
   private(set) var item: BaseDTOModel
   
-  init(repository: BasicRepositoryProtocol = BasicRepository()) {
+  init(repository: BaseRepositoryProtocol = BaseRepository()) {
     self.repository = repository
     self.item = BaseDTOModel()
   }
@@ -29,7 +29,7 @@ final class BaseViewModel: BaseViewModelProtocol {
     if state == .loading { return }
     state = .loading
     do {
-      let fetchedModel = try await repository.fetchBasicModel()
+      let fetchedModel = try await repository.fetchBaseModel()
       state = .loaded
       item = fetchedModel
     } catch let err {
