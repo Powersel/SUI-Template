@@ -1,7 +1,7 @@
 import Foundation
 
 enum APIEndpoint {
-  private var baseURL: String { return "https://rickandmortyapi.com/api" }
+  private var baseURL: String { return "https://d3jbb8n5wk0qxi.cloudfront.net/recipes.json" }
   static let apiKey: String = ""
   
   case base

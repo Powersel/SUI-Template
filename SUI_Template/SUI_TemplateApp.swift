@@ -4,7 +4,7 @@ import SwiftUI
 struct SUI_TemplateApp: App {
     var body: some Scene {
         WindowGroup {
-          MainView(viewModel: BaseViewModel(), MainCoordinator())
+          MainView(viewModel: RecipesViewModel(), MainCoordinator())
         }
     }
 }

@@ -6,43 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXContainerItemProxy section */
-		65D4EFA32D4E73CD003E833B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 65D4EF8A2D4E73CC003E833B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 65D4EF912D4E73CC003E833B;
-			remoteInfo = "SUI-Template";
-		};
-		65D4EFAD2D4E73CD003E833B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 65D4EF8A2D4E73CC003E833B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 65D4EF912D4E73CC003E833B;
-			remoteInfo = "SUI-Template";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		65D4EF922D4E73CC003E833B /* SUI-Template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SUI-Template.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		65D4EFA22D4E73CD003E833B /* SUI-TemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SUI-TemplateTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		65D4EFAC2D4E73CD003E833B /* SUI-TemplateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SUI-TemplateUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D4EF922D4E73CC003E833B /* SUI_Template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = SUI_Template.app; path = "/Users/sergiy/Work/SUI-Template/build/Debug-iphoneos/SUI_Template.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		65D4EF942D4E73CC003E833B /* SUI-Template */ = {
+		65D4EF942D4E73CC003E833B /* SUI_Template */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "SUI-Template";
-			sourceTree = "<group>";
-		};
-		65D4EFA52D4E73CD003E833B /* SUI-TemplateTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "SUI-TemplateTests";
-			sourceTree = "<group>";
-		};
-		65D4EFAF2D4E73CD003E833B /* SUI-TemplateUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "SUI-TemplateUITests";
+			path = SUI_Template;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -55,49 +26,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		65D4EF9F2D4E73CD003E833B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		65D4EFA92D4E73CD003E833B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		65D4EF892D4E73CC003E833B = {
 			isa = PBXGroup;
 			children = (
-				65D4EF942D4E73CC003E833B /* SUI-Template */,
-				65D4EFA52D4E73CD003E833B /* SUI-TemplateTests */,
-				65D4EFAF2D4E73CD003E833B /* SUI-TemplateUITests */,
-				65D4EF932D4E73CC003E833B /* Products */,
+				65D4EF942D4E73CC003E833B /* SUI_Template */,
 			);
-			sourceTree = "<group>";
-		};
-		65D4EF932D4E73CC003E833B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				65D4EF922D4E73CC003E833B /* SUI-Template.app */,
-				65D4EFA22D4E73CD003E833B /* SUI-TemplateTests.xctest */,
-				65D4EFAC2D4E73CD003E833B /* SUI-TemplateUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		65D4EF912D4E73CC003E833B /* SUI-Template */ = {
+		65D4EF912D4E73CC003E833B /* SUI_Template */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65D4EFB62D4E73CD003E833B /* Build configuration list for PBXNativeTarget "SUI-Template" */;
+			buildConfigurationList = 65D4EFB62D4E73CD003E833B /* Build configuration list for PBXNativeTarget "SUI_Template" */;
 			buildPhases = (
 				65D4EF8E2D4E73CC003E833B /* Sources */,
 				65D4EF8F2D4E73CC003E833B /* Frameworks */,
@@ -108,60 +52,14 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				65D4EF942D4E73CC003E833B /* SUI-Template */,
+				65D4EF942D4E73CC003E833B /* SUI_Template */,
 			);
-			name = "SUI-Template";
+			name = SUI_Template;
 			packageProductDependencies = (
 			);
 			productName = "SUI-Template";
-			productReference = 65D4EF922D4E73CC003E833B /* SUI-Template.app */;
+			productReference = 65D4EF922D4E73CC003E833B /* SUI_Template.app */;
 			productType = "com.apple.product-type.application";
-		};
-		65D4EFA12D4E73CD003E833B /* SUI-TemplateTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 65D4EFB92D4E73CD003E833B /* Build configuration list for PBXNativeTarget "SUI-TemplateTests" */;
-			buildPhases = (
-				65D4EF9E2D4E73CD003E833B /* Sources */,
-				65D4EF9F2D4E73CD003E833B /* Frameworks */,
-				65D4EFA02D4E73CD003E833B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				65D4EFA42D4E73CD003E833B /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				65D4EFA52D4E73CD003E833B /* SUI-TemplateTests */,
-			);
-			name = "SUI-TemplateTests";
-			packageProductDependencies = (
-			);
-			productName = "SUI-TemplateTests";
-			productReference = 65D4EFA22D4E73CD003E833B /* SUI-TemplateTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		65D4EFAB2D4E73CD003E833B /* SUI-TemplateUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 65D4EFBC2D4E73CD003E833B /* Build configuration list for PBXNativeTarget "SUI-TemplateUITests" */;
-			buildPhases = (
-				65D4EFA82D4E73CD003E833B /* Sources */,
-				65D4EFA92D4E73CD003E833B /* Frameworks */,
-				65D4EFAA2D4E73CD003E833B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				65D4EFAE2D4E73CD003E833B /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				65D4EFAF2D4E73CD003E833B /* SUI-TemplateUITests */,
-			);
-			name = "SUI-TemplateUITests";
-			packageProductDependencies = (
-			);
-			productName = "SUI-TemplateUITests";
-			productReference = 65D4EFAC2D4E73CD003E833B /* SUI-TemplateUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -176,17 +74,9 @@
 					65D4EF912D4E73CC003E833B = {
 						CreatedOnToolsVersion = 16.2;
 					};
-					65D4EFA12D4E73CD003E833B = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 65D4EF912D4E73CC003E833B;
-					};
-					65D4EFAB2D4E73CD003E833B = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 65D4EF912D4E73CC003E833B;
-					};
 				};
 			};
-			buildConfigurationList = 65D4EF8D2D4E73CC003E833B /* Build configuration list for PBXProject "SUI-Template" */;
+			buildConfigurationList = 65D4EF8D2D4E73CC003E833B /* Build configuration list for PBXProject "SUI_Template" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -196,33 +86,17 @@
 			mainGroup = 65D4EF892D4E73CC003E833B;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 65D4EF932D4E73CC003E833B /* Products */;
+			productRefGroup = 65D4EF892D4E73CC003E833B;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				65D4EF912D4E73CC003E833B /* SUI-Template */,
-				65D4EFA12D4E73CD003E833B /* SUI-TemplateTests */,
-				65D4EFAB2D4E73CD003E833B /* SUI-TemplateUITests */,
+				65D4EF912D4E73CC003E833B /* SUI_Template */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		65D4EF902D4E73CC003E833B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		65D4EFA02D4E73CD003E833B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		65D4EFAA2D4E73CD003E833B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -239,34 +113,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		65D4EF9E2D4E73CD003E833B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		65D4EFA82D4E73CD003E833B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		65D4EFA42D4E73CD003E833B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 65D4EF912D4E73CC003E833B /* SUI-Template */;
-			targetProxy = 65D4EFA32D4E73CD003E833B /* PBXContainerItemProxy */;
-		};
-		65D4EFAE2D4E73CD003E833B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 65D4EF912D4E73CC003E833B /* SUI-Template */;
-			targetProxy = 65D4EFAD2D4E73CD003E833B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		65D4EFB42D4E73CD003E833B /* Debug */ = {
@@ -395,7 +242,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SUI-Template/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SUI_Template/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -423,7 +270,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SUI-Template/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SUI_Template/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -444,78 +291,10 @@
 			};
 			name = Release;
 		};
-		65D4EFBA2D4E73CD003E833B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "PokemonSUI.SUI-TemplateTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SUI-Template.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SUI-Template";
-			};
-			name = Debug;
-		};
-		65D4EFBB2D4E73CD003E833B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "PokemonSUI.SUI-TemplateTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SUI-Template.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SUI-Template";
-			};
-			name = Release;
-		};
-		65D4EFBD2D4E73CD003E833B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "PokemonSUI.SUI-TemplateUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "SUI-Template";
-			};
-			name = Debug;
-		};
-		65D4EFBE2D4E73CD003E833B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "PokemonSUI.SUI-TemplateUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "SUI-Template";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		65D4EF8D2D4E73CC003E833B /* Build configuration list for PBXProject "SUI-Template" */ = {
+		65D4EF8D2D4E73CC003E833B /* Build configuration list for PBXProject "SUI_Template" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65D4EFB42D4E73CD003E833B /* Debug */,
@@ -524,29 +303,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65D4EFB62D4E73CD003E833B /* Build configuration list for PBXNativeTarget "SUI-Template" */ = {
+		65D4EFB62D4E73CD003E833B /* Build configuration list for PBXNativeTarget "SUI_Template" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65D4EFB72D4E73CD003E833B /* Debug */,
 				65D4EFB82D4E73CD003E833B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		65D4EFB92D4E73CD003E833B /* Build configuration list for PBXNativeTarget "SUI-TemplateTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				65D4EFBA2D4E73CD003E833B /* Debug */,
-				65D4EFBB2D4E73CD003E833B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		65D4EFBC2D4E73CD003E833B /* Build configuration list for PBXNativeTarget "SUI-TemplateUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				65D4EFBD2D4E73CD003E833B /* Debug */,
-				65D4EFBE2D4E73CD003E833B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
